@@ -96,16 +96,17 @@ Infrastructure and equipment issues represent the largest contributor to total d
 - Investigate patterns of extreme delay events for improved response planning.
 
 ---
-## Dashboard Preview
+## Dashboard Insights
 
-### Monthly Delay Trend
-![Trend Over Time](dashboard_assets/trend_over_time.png)
+### Monthly Trend
+The dashboard highlights the sharp operational decline during early 2020, followed by recovery and stabilization in subsequent years.
 
-### Delay Severity by Category
-![Severity by Category](dashboard_assets/severity_by_category.png)
+### Severity by Category
+Infrastructure and equipment-related issues contribute the largest share of delays, indicating strong dependency on system reliability.
 
 ### Division Breakdown
-![Division Breakdown](dashboard_assets/division_breakdown.png)
+Certain divisions demonstrate higher delay concentrations, suggesting potential operational imbalance across service areas.
+
 
 ---
 ## How to Reproduce the Analysis
@@ -125,8 +126,4 @@ This analysis demonstrates the ability to:
 - Interpret operational data in a business context
 - Integrate BI tools with Python workflows
 - Translate analytical findings into actionable recommendations
-
-
-
-## Project Structure
 

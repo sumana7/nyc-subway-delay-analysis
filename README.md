@@ -1,69 +1,64 @@
 # NYC Subway Delay Analysis
+**Tools:** Python (Pandas, Matplotlib, Seaborn) · Power BI · CSV
 
 ## Overview
+Analysis of 17,171 NYC subway delay records spanning 2020–2026,
+combining Python-based exploratory data analysis with Power BI
+dashboard reporting. The project identifies delay trends, 
+operational patterns, and primary disruption drivers across 
+weekday and weekend operations.
 
-This project analyzes operational patterns and key drivers of NYC subway delays from 2020–2026. The objective was to identify delay trends, compare weekday and weekend performance, and determine the primary operational factors contributing to service disruptions.
-
-The analysis combines **Power BI for data transformation and dashboard visualization** with **Python (Pandas, Matplotlib, Seaborn)** for structured exploratory analysis and insight validation.
-
----
-
-## Business Questions
-
-- How are subway delays distributed?
+## Business Questions Answered
+- How are subway delays distributed across the network?
 - Do weekday operations differ significantly from weekends?
-- How did delays evolve over time?
+- How did delays evolve over time, including during COVID-19?
 - Which operational categories contribute most to total delays?
 
----
+## Project Workflow
 
-## Tools Used
+### 1. Data Cleaning (Power Query)
+- Standardized date formats and categorical fields
+- Handled missing values and outliers in delay records
+- Prepared dataset for both Python EDA and Power BI reporting
 
-- **Power BI** – Data cleaning (Power Query) and dashboard development  
-- **Python** – Exploratory Data Analysis  
-- **GitHub** – Version control and documentation  
+### 2. Exploratory Data Analysis (Python)
+- Delay distribution analysis (histogram + KDE)
+- Weekday vs weekend comparison (box plots)
+- Monthly trend analysis (2020–2026 line chart)
+- Category-level delay aggregation (bar chart)
 
----
+### 3. Dashboard (Power BI)
+- Total delays and average delay KPI cards
+- Monthly delay trend over time
+- Weekday vs weekend performance comparison
+- Category-wise delay contribution breakdown
 
-## Key Insights
+## Key Findings
 
-### 1. Delay Distribution
-Delays are highly right-skewed. Most time periods experience moderate delays, while a small number of extreme events disproportionately impact overall performance.
+| Finding | Detail |
+|--------|--------|
+| Delay range | 1 to 1,836 per period |
+| Mean delay | ~147 per period |
+| Dataset size | 17,171 records |
+| Top delay driver | Infrastructure & equipment issues |
+| COVID impact | Sharp decline in early 2020, recovered by 2022 |
+| Weekday vs Weekend | Higher median and variability on weekdays |
 
-### 2. Weekday vs Weekend Performance
-Weekday delays show higher median values and greater variability compared to weekends, indicating increased operational complexity during workdays.
+## Recommendations
+- Prioritize infrastructure upgrades to address the leading 
+  delay category
+- Strengthen weekday operational monitoring given higher 
+  peak variability
+- Schedule planned maintenance during low-impact windows
+- Build disruption response protocols around extreme delay events
 
-### 3. Pandemic Impact
-A significant drop in delays occurred in early 2020 due to reduced operations during COVID-19. Delays recovered and stabilized in subsequent years.
+## Files
+| File | Description |
+|------|-------------|
+| `eda_subway_delays.ipynb` | Python EDA notebook |
+| `subway_dashboard.pbix` | Power BI dashboard |
+| `subway_trains_delayed_cleaned.csv` | Cleaned dataset |
 
-### 4. Primary Delay Drivers
-Infrastructure and equipment issues are the largest contributors to total delays, followed by police/medical incidents and planned maintenance work. External factors account for a smaller share.
-
----
-
-## Business Recommendations
-
-- Prioritize infrastructure upgrades and preventive maintenance.
-- Strengthen weekday operational monitoring and contingency planning.
-- Optimize scheduling of planned maintenance activities.
-- Analyze extreme delay events to improve disruption response strategies.
-
----
-
-## Dashboard Highlights
-
-The Power BI dashboard provides interactive views of:
-- Monthly delay trends
-- Delay severity by reporting category
-- Division-level delay distribution
-
----
-
-## Project Impact
-
-This project demonstrates the ability to:
-
-- Perform structured exploratory data analysis  
-- Integrate BI tools with Python workflows  
-- Translate operational data into business insights  
-- Present findings through both dashboards and analytical documentation  
+## Skills Demonstrated
+`Python` `Pandas` `EDA` `Matplotlib` `Seaborn` 
+`Power BI` `DAX` `Trend Analysis` `Operational Analytics`

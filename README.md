@@ -62,3 +62,7 @@ weekday and weekend operations.
 ## Skills Demonstrated
 `Python` `Pandas` `EDA` `Matplotlib` `Seaborn` 
 `Power BI` `DAX` `Trend Analysis` `Operational Analytics`
+
+## Dashboard
+<img width="1324" height="742" alt="image" src="https://github.com/user-attachments/assets/95cbc171-19aa-40b2-b929-0d8a102d201c" />
+

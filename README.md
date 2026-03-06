@@ -56,7 +56,7 @@ weekday and weekend operations.
 | File | Description |
 |------|-------------|
 | `eda_subway_delays.ipynb` | Python EDA notebook |
-| `subway_dashboard.pbix` | Power BI dashboard |
+| `dashboard.pbix` | Power BI dashboard |
 | `subway_trains_delayed_cleaned.csv` | Cleaned dataset |
 
 ## Skills Demonstrated
